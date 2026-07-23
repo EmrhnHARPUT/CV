@@ -30,7 +30,7 @@ while True:
 
             CenterX = x + (w // 2)
             CenterY = y + (h // 2)
-
+ 
             current_center = (CenterX,CenterY)
 
             cv2.rectangle(square,(x,y),(x+w,y+h),(255,0,0),2)
